@@ -12,7 +12,7 @@ body.WB_macT {
 }
 .gn_topmenulist_tips {
     min-width: 0px;
-    margin-right: -100px;
+    margin-right: inherit;
 }
 .pf_username {
     font-family: var(--monospace);
@@ -72,4 +72,9 @@ W_btn_a_disable, .W_btn_a_disable:hover {
 .WB_global_nav .gn_topmenulist_tips {
     background: #fff;
     border: 1px solid var(--Twitter);
+    opacity: 0.7;
+}
+.L-en-us .WB_global_nav .gn_logo .box .logo {
+    background-image: url("http://img.t.sinajs.cn/t6/style/images/global_nav/WB_logo-x2.png?id=1404211047727");
+    background-size: 96px 35px;
 }
