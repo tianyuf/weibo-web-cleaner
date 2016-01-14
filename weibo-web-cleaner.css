@@ -1,0 +1,75 @@
+/* Color Variables */
+:root {
+    --twitter: #55acee;
+    --twitterbg: #e1e8ed;
+}
+body.WB_macT {
+    font-family: var(--Roboto);
+    background-color: var(--twitterbg);
+}
+.webim_fold, .icon_setskin, #v6_pl_rightmod_rank, #v6_pl_rightmod_ads35, .WB_right_module, .send_weibo .key, #v6_pl_ad_bottomtip, span.placeholder, .PCD_mplayer, .PCD_user_a, #Pl_Core_P7MultiPicPlay__7, #Pl_Core_FansGroups__11, .PCD_event_red2015, .icon_bed, .WB_frame_b, .WB_tab_a .tab_box, .WB_main_r, [title="微博会员"], [title="2016让红包飞"], [title="试一下键盘N键？"], [title="微博达人"] {
+    display: none;
+}
+.gn_topmenulist_tips {
+    min-width: 0px;
+    margin-right: -100px;
+}
+.pf_username {
+    font-family: var(--monospace);
+}
+.pf_intro {
+    font-style: inherit;
+}
+.WB_frame_c {
+    width: 920px;
+}
+[style="z-index: 10; transform: translateZ(0px); position: relative; width: 600px;"] {
+    width: 920px;
+}
+
+.B_discover .WB_frame_c, .WB_main_c {
+    width: 98%;
+}
+.WB_global_nav {
+    border-top: 5px solid var(--Twitter);
+}
+.FRAME_main .WB_global_nav .gn_nav_list li .home em {
+    color: var(--Twitter);
+}
+a, .WB_global_nav a, .WB_global_nav .S_link1, .WB_global_nav a.S_txt1:hover, .WB_global_nav a:hover .S_txt1, .WB_global_nav a.current .S_txt1, .WB_global_nav a.S_txt2:hover, .WB_global_nav .SW_fun:hover .S_func1, .WB_notes a, .WB_notes .wrap {
+    color: var(--Twitter);
+}
+::selection, .W_new_count {
+    background: var(--Twitter);
+    color: #fff;
+}
+.WB_notes {
+    background: var(--twitterbg);
+}
+.WB_notes a, .WB_notes .wrap {
+    font-size: larger;
+}
+/* Remove Icons for Navigation Bar Items */
+[class="W_ficon ficon_found S_ficon"], [class="W_ficon ficon_home S_ficon"], [class="W_ficon ficon_game S_ficon"], [class="W_ficon ficon_user S_ficon"] {
+    display: none;
+}
+/* Change border color of Weibo submit form and button */
+.send_weibo .input.clicked {
+    border-color: var(--Twitter);
+}
+.W_btn_a {
+    background: var(--Twitter);
+    border: 1px solid var(--Twitter);
+}
+[class="WB_feed_detail clearfix"] {
+    background-image: none;
+}
+W_btn_a_disable, .W_btn_a_disable:hover {
+    background: var(--twitterbg);
+    color: #fff;
+    border: 1px solid var(--twitterbg);
+}
+.WB_global_nav .gn_topmenulist_tips {
+    background: #fff;
+    border: 1px solid var(--Twitter);
+}
